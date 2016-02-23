@@ -1,0 +1,3 @@
+g++ string.cc string_piece.cc string16.cc -DWCHAR_T_IS_UTF32 -O0 -g3 -o string64
+g++ string.cc string_piece.cc string16.cc -DWCHAR_T_IS_UTF32 -O0 -g3 -m32 -o string
+n
